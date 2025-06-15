@@ -1,9 +1,13 @@
+
 package com.example;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-@SpringBootTest
+
+@SpringBootTest(classes = CodeInspectionApplication.class)
 class CodeInspectionApplicationTests {
-    @Test
-    void contextLoads() {
-    }
+
+    @Test
+    void contextLoads() {
+    }
 }
